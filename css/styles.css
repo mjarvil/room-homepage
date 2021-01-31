@@ -4,3 +4,9 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Standard Styles */
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 12px;
+}
