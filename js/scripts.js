@@ -1,17 +1,13 @@
+import UI from './ui.js';
 import Content from './content.js';
 
-sliderLeft.addEventListener('click', () => {
-  {
-    console.log(`left is clicked`);
-  }
-});
+class App {
+  constructor() {}
 
-sliderRight.addEventListener('click', () => {
-  {
-    console.log(`right is clicked`);
+  init() {
+    const ui = new UI();
   }
-});
+}
 
-const getContent = (args) => {
-  const content = new Content(...args);
-};
+const app = new App();
+app.init();
