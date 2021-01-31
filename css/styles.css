@@ -16,11 +16,13 @@ body {
   display: none;
 }
 
-.main {
+.main-hero img {
+  width: 100%;
   position: relative;
 }
 
 header {
+  z-index: 999;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -36,6 +38,25 @@ header {
   height: 500px;
 }
 
-.main-hero img {
-  width: 100%;
+.hero {
+  position: relative;
+}
+
+/* slider design */
+
+.mobile-slider-container {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  display: flex;
+  background-color: hsl(0, 0%, 0%);
+  width: 150px;
+  justify-content: space-evenly;
+}
+
+.slider-left {
+  padding: 20px;
+}
+.slider-right {
+  padding: 20px;
 }
