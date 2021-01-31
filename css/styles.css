@@ -7,10 +7,31 @@ html {
 
 /* Standard Styles */
 body {
+  max-width: 1440px;
   font-family: 'Spartan', sans-serif;
   font-size: 12px;
 }
 
 .hidden {
   display: none;
+}
+
+.main {
+  position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  margin: 2em 0;
+  margin-left: -25px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.main-hero img {
+  width: 100%;
 }
