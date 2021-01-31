@@ -17,3 +17,7 @@ sliderRight.addEventListener('click', () => {
     console.log(`right is clicked`);
   }
 });
+
+const getContent = (args) => {
+  const content = new Content(...args);
+};
